@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Web Logo-->
+    <link rel="icon" type="image/png" href="/assets/thisImg/CozyliveLogo.png" />
+
+    <!-- Material CDN -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <!-- Remixicon CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+    <!-- CSS Style -->
+    <link rel="stylesheet" href="/assets/css/cozyliveLandingPage.css" />
+
+    <!-- Primary meta tags -->
+    <meta name="title" content="Cozylive" />
+    <meta name="description" content="This is a realestate website developed by Cozylive" />
+
+    <title>Cozylive</title>
+  </head>
+  <body>
+    <!-- ==================== HEADER START ==================== -->
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img src="/assets/thisImg/CozyliveLogo.png" width="60" height="28" alt="Cozylive" />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
+            <li>
+              <a href="#" class="navbar-link label-medium active">Home</a>
+            </li>
+            <li>
+              <a href="#" class="navbar-link label-medium">Rent</a>
+            </li>
+            <li>
+              <a href="#" class="navbar-link label-medium">Sell</a>
+            </li>
+            <li>
+              <a href="#" class="navbar-link label-medium">Buy</a>
+            </li>
+            <li>
+              <a href="#" class="navbar-link label-medium">About</a>
+            </li>
+          </ul>
+
+          <div class="navbar-wrapper">
+            <a href="/pages/sign-in.html" class="btn-link label-medium">Login</a>
+
+            <a href="#" class="btn btn-fill label-medium">Get Started</a>
+          </div>
+        </nav>
+
+        <button class="nav-toggle-btn icon-btn" aria-label="toggle navbar" data-nav-toggler>
+          <span class="material-symbols-outlined open" aria-hidden="true"> menu </span>
+          <span class="material-symbols-outlined close" aria-hidden="true"> close </span>
+        </button>
+      </div>
+    </header>
+    <!-- ==================== HEADER END ==================== -->
+
+    <!-- ==================== MAIN START ==================== -->
+    <main>
+      <article>
+        <!-- Hero section start -->
+
+        <section class="hero">
+          <div class="container">
+            <div class="hero-content">
+              <h1 class="headline-large hero-title">Live comfortably with Cozylive</h1>
+
+              <p class="body-large hero-text">If you want to live comfortably, look for us. We guarantee that your life will be comfortable in our home</p>
+
+              <form action="./" method="get" class="search-bar">
+                <label class="search-item">
+                  <span class="label-medium label">Want to</span>
+
+                  <select name="want-to" id="" class="search-item-field body-medium">
+                    <option value="buy" selected>Buy</option>
+                    <option value="sell">Sell</option>
+                    <option value="rent">Rent</option>
+                  </select>
+
+                  <span class="material-symbols-outlined"> real_estate_agent </span>
+                </label>
+
+                <label class="search-item">
+                  <span class="label-medium label">Property type</span>
+
+                  <select name="property-type" id="" class="search-item-field body-medium">
+                    <option value="any" selected>Any</option>
+                    <option value="houses">Houses</option>
+                    <option value="apartements">Apartements</option>
+                    <option value="villa">Villa</option>
+                    <option value="townhome">Townhome</option>
+                    <option value="bungalow">Bungalow</option>
+                    <option value="loft">Loft</option>
+                  </select>
+
+                  <span class="material-symbols-outlined"> gite </span>
+                </label>
+
+                <label class="search-item">
+                  <span class="label-medium label">Location</span>
+
+                  <input type="text" name="location" placeholder="Street, City, Zip ..." class="search-item-field body-medium" />
+
+                  <span class="material-symbols-outlined"> location_on </span>
+                </label>
+
+                <button type="submit" class="search-btn">
+                  <span class="material-symbols-outlined"> search </span>
+
+                  <span class="label-medium">Search</span>
+                </button>
+              </form>
+            </div>
+
+            <img src="/assets/thisImg/hero.png" width="816" height="659" role="presentation" class="hero-banner" />
+
+            <img src="/assets/thisImg/bg-pattern.png" width="1240" height="840" role="presentation" class="bg-pattern" />
+          </div>
+        </section>
+
+        <!-- Hero section End -->
+
+        <!-- Property section Start -->
+
+        <section class="section property" aria-labelledby="property-label">
+          <div class="container">
+            <div class="title-wrapper">
+              <div>
+                <h2 class="section-title headline-small">Cozy home for your family</h2>
+                <p class="section-text body-large">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam facere expedita dolores incidunt laboriosam doloremque recusandae dolor nobis quasi rem tenetur quisquam odit, dolorum pariatur ipsum doloribus, qui
+                  praesentium dolore.
+                </p>
+              </div>
+              <a href="#" class="btn btn-outline">
+                <span class="label-medium">Explore more</span>
+
+                <span class="material-symbols-outlined"> north_east </span>
+              </a>
+            </div>
+
+            <div class="property-list">
+              <div class="card">
+                <div class="card-banner">
+                  <figure class="img-holder" style="--width: 585; --height: 390">
+                    <img src="/assets/thisImg/1.png" width="585" height="390" class="img-cover" alt="RUINS Soft Home" />
+                  </figure>
+
+                  <span class="badge label-medium">New</span>
+
+                  <button class="icon-btn fav-btn active" aria-label="add to favorite" data-toggle-btn>
+                    <span class="material-symbols-outlined"> favorite </span>
+                  </button>
+                </div>
+
+                <div class="card-content">
+                  <span class="title-large">$645.72</span>
+
+                  <h3>
+                    <a href="#" class="title-small card-title">RUINS Soft Home</a>
+                  </h3>
+
+                  <address class="body-medium card-text">1977 Thornridge cir. Shiloh, Hawaii 83610</address>
+
+                  <div class="card-meta-list">
+                    <div class="meta-item">
+                      <span class="material-symbols-outlined meta-icon" aria-hidden="true"> bed </span>
+                      <span class="meta-text label-medium">3 Bed</span>
+                    </div>
+
+                    <div class="meta-item">
+                      <span class="material-symbols-outlined meta-icon" aria-hidden="true"> bathtub </span>
+                      <span class="meta-text label-medium">2 Bath</span>
+                    </div>
+
+                    <div class="meta-item">
+                      <span class="material-symbols-outlined meta-icon" aria-hidden="true"> straighten</span>
+                      <span class="meta-text label-medium">1292 sqft</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-banner">
+                  <figure class="img-holder" style="--width: 585; --height: 390">
+                    <img src="/assets/thisImg/3.png" width="585" height="390" class="img-cover" alt="Zyne Cozy House" />
+                  </figure>
+
+                  <span class="badge label-medium">New</span>
+
+                  <button class="icon-btn fav-btn" aria-label="add to favorite" data-toggle-btn>
+                    <span class="material-symbols-outlined"> favorite </span>
+                  </button>
+                </div>
+
+                <div class="card-content">
+                  <span class="title-large">$572.34</span>
+
+                  <h3>
+                    <a href="#" class="title-small card-title">Zyne Cozy House</a>
+                  </h3>
+
+                  <address class="body-medium card-text">9283 Westheiner Rd. Santa Ana, Illinois 24662</address>
+
+                  <div class="card-meta-list">
+                    <div class="meta-item">
+                      <span class="material-symbols-outlined meta-icon" aria-hidden="true"> bed </span>
+                      <span class="meta-text label-medium">2 Bed</span>
+                    </div>
+
+                    <div class="meta-item">
+                      <span class="material-symbols-outlined meta-icon" aria-hidden="true"> bathtub </span>
+                      <span class="meta-text label-medium">1 Bath</span>
+                    </div>
+
+                    <div class="meta-item">
+                      <span class="material-symbols-outlined meta-icon" aria-hidden="true"> straighten</span>
+                      <span class="meta-text label-medium">890 sqft</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-banner">
+                  <figure class="img-holder" style="--width: 585; --height: 390">
+                    <img src="/assets/thisImg/2.png" width="585" height="390" class="img-cover" alt="MIDLY Rane Home" />
+                  </figure>
+
+                  <span class="badge label-medium">New</span>
+
+                  <button class="icon-btn fav-btn" aria-label="add to favorite" data-toggle-btn>
+                    <span class="material-symbols-outlined"> favorite </span>
+                  </button>
+                </div>
+
+                <div class="card-content">
+                  <span class="title-large">$792.34</span>
+
+                  <h3>
+                    <a href="#" class="title-small card-title">MIDLY Rane Home</a>
+                  </h3>
+
+                  <address class="body-medium card-text">56 Rue Lepic, 75018 Paris, France</address>
+
+                  <div class="card-meta-list">
+                    <div class="meta-item">
+                      <span class="material-symbols-outlined meta-icon" aria-hidden="true"> bed </span>
+                      <span class="meta-text label-medium">3 Bed</span>
+                    </div>
+
+                    <div class="meta-item">
+                      <span class="material-symbols-outlined meta-icon" aria-hidden="true"> bathtub </span>
+                      <span class="meta-text label-medium">2 Bath</span>
+                    </div>
+
+                    <div class="meta-item">
+                      <span class="material-symbols-outlined meta-icon" aria-hidden="true"> straighten</span>
+                      <span class="meta-text label-medium">1102 sqft</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-banner">
+                  <figure class="img-holder" style="--width: 585; --height: 390">
+                    <img src="/assets/thisImg/4.png" width="585" height="390" class="img-cover" alt="Yiyx Red House" />
+                  </figure>
+
+                  <span class="badge label-medium">New</span>
+
+                  <button class="icon-btn fav-btn" aria-label="add to favorite" data-toggle-btn>
+                    <span class="material-symbols-outlined"> favorite </span>
+                  </button>
+                </div>
+
+                <div class="card-content">
+                  <span class="title-large">$362.22</span>
+
+                  <h3>
+                    <a href="#" class="title-small card-title">Yiyx Red House</a>
+                  </h3>
+
+                  <address class="body-medium card-text">5 Avenue Anatole France, 75007 Paris, France</address>
+
+                  <div class="card-meta-list">
+                    <div class="meta-item">
+                      <span class="material-symbols-outlined meta-icon" aria-hidden="true"> bed </span>
+                      <span class="meta-text label-medium">2 Bed</span>
+                    </div>
+
+                    <div class="meta-item">
+                      <span class="material-symbols-outlined meta-icon" aria-hidden="true"> bathtub </span>
+                      <span class="meta-text label-medium">1 Bath</span>
+                    </div>
+
+                    <div class="meta-item">
+                      <span class="material-symbols-outlined meta-icon" aria-hidden="true"> straighten</span>
+                      <span class="meta-text label-medium">578 sqft</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-banner">
+                  <figure class="img-holder" style="--width: 585; --height: 390">
+                    <img src="/assets/thisImg/5.png" width="585" height="390" class="img-cover" alt="RUZG Soft Home" />
+                  </figure>
+
+                  <span class="badge label-medium">New</span>
+
+                  <button class="icon-btn fav-btn" aria-label="add to favorite" data-toggle-btn>
+                    <span class="material-symbols-outlined"> favorite </span>
+                  </button>
+                </div>
+
+                <div class="card-content">
+                  <span class="title-large">$872.34</span>
+
+                  <h3>
+                    <a href="#" class="title-small card-title">RUZG Soft Home</a>
+                  </h3>
+
+                  <address class="body-medium card-text">1630 Revello Drive, Sunnydale, CA 94086, USA</address>
+
+                  <div class="card-meta-list">
+                    <div class="meta-item">
+                      <span class="material-symbols-outlined meta-icon" aria-hidden="true"> bed </span>
+                      <span class="meta-text label-medium">4 Bed</span>
+                    </div>
+
+                    <div class="meta-item">
+                      <span class="material-symbols-outlined meta-icon" aria-hidden="true"> bathtub </span>
+                      <span class="meta-text label-medium">2 Bath</span>
+                    </div>
+
+                    <div class="meta-item">
+                      <span class="material-symbols-outlined meta-icon" aria-hidden="true"> straighten</span>
+                      <span class="meta-text label-medium">1352 sqft</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-banner">
+                  <figure class="img-holder" style="--width: 585; --height: 390">
+                    <img src="/assets/thisImg/6.png" width="585" height="390" class="img-cover" alt="GREY Rux Home" />
+                  </figure>
+
+                  <span class="badge label-medium">New</span>
+
+                  <button class="icon-btn fav-btn" aria-label="add to favorite" data-toggle-btn>
+                    <span class="material-symbols-outlined"> favorite </span>
+                  </button>
+                </div>
+
+                <div class="card-content">
+                  <span class="title-large">$838.62</span>
+
+                  <h3>
+                    <a href="#" class="title-small card-title">GREY Rux Home</a>
+                  </h3>
+
+                  <address class="body-medium card-text">42 Evergreen Terrace, Springfield, USA</address>
+
+                  <div class="card-meta-list">
+                    <div class="meta-item">
+                      <span class="material-symbols-outlined meta-icon" aria-hidden="true"> bed </span>
+                      <span class="meta-text label-medium">5 Bed</span>
+                    </div>
+
+                    <div class="meta-item">
+                      <span class="material-symbols-outlined meta-icon" aria-hidden="true"> bathtub </span>
+                      <span class="meta-text label-medium">3 Bath</span>
+                    </div>
+
+                    <div class="meta-item">
+                      <span class="material-symbols-outlined meta-icon" aria-hidden="true"> straighten</span>
+                      <span class="meta-text label-medium">1200 sqft</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-banner">
+                  <figure class="img-holder" style="--width: 585; --height: 390">
+                    <img src="/assets/thisImg/7.png" width="585" height="390" class="img-cover" alt="SoftGreen Home" />
+                  </figure>
+
+                  <span class="badge label-medium">New</span>
+
+                  <button class="icon-btn fav-btn" aria-label="add to favorite" data-toggle-btn>
+                    <span class="material-symbols-outlined"> favorite </span>
+                  </button>
+                </div>
+
+                <div class="card-content">
+                  <span class="title-large">$562.00</span>
+
+                  <h3>
+                    <a href="#" class="title-small card-title">SoftGreen Home</a>
+                  </h3>
+
+                  <address class="body-medium card-text">32 Grimmauld Place, London, UK</address>
+
+                  <div class="card-meta-list">
+                    <div class="meta-item">
+                      <span class="material-symbols-outlined meta-icon" aria-hidden="true"> bed </span>
+                      <span class="meta-text label-medium">2 Bed</span>
+                    </div>
+
+                    <div class="meta-item">
+                      <span class="material-symbols-outlined meta-icon" aria-hidden="true"> bathtub </span>
+                      <span class="meta-text label-medium">1 Bath</span>
+                    </div>
+
+                    <div class="meta-item">
+                      <span class="material-symbols-outlined meta-icon" aria-hidden="true"> straighten</span>
+                      <span class="meta-text label-medium">845 sqft</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-banner">
+                  <figure class="img-holder" style="--width: 585; --height: 390">
+                    <img src="/assets/thisImg/8.png" width="585" height="390" class="img-cover" alt="ModernLex House" />
+                  </figure>
+
+                  <span class="badge label-medium">New</span>
+
+                  <button class="icon-btn fav-btn" aria-label="add to favorite" data-toggle-btn>
+                    <span class="material-symbols-outlined"> favorite </span>
+                  </button>
+                </div>
+
+                <div class="card-content">
+                  <span class="title-large">$936.12</span>
+
+                  <h3>
+                    <a href="#" class="title-small card-title">ModernLex House</a>
+                  </h3>
+
+                  <address class="body-medium card-text">221B Baker Street, Marylebone, London, UK</address>
+
+                  <div class="card-meta-list">
+                    <div class="meta-item">
+                      <span class="material-symbols-outlined meta-icon" aria-hidden="true"> bed </span>
+                      <span class="meta-text label-medium">4 Bed</span>
+                    </div>
+
+                    <div class="meta-item">
+                      <span class="material-symbols-outlined meta-icon" aria-hidden="true"> bathtub </span>
+                      <span class="meta-text label-medium">2 Bath</span>
+                    </div>
+
+                    <div class="meta-item">
+                      <span class="material-symbols-outlined meta-icon" aria-hidden="true"> straighten</span>
+                      <span class="meta-text label-medium">900 sqft</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Property section End -->
+
+        <!-- Feature section Start -->
+
+        <section class="section feature" aria-labelledby="feature-label">
+          <div class="container">
+            <figure class="feature-banner">
+              <img src="/assets/thisImg/9.png" alt="" width="1020" height="690" loading="lazy" class="img-cover" />
+            </figure>
+
+            <div class="feature-content">
+              <h2 class="headline-medium" id="feature-label">We Focus On Comfort To Stay</h2>
+
+              <p class="body-large feature-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis sunt illo voluptatem! Ad quam itaque dolores voluptatem vitae deleniti sed! Porro, optio autem hic aliquam fugiat sed nihil asperiores nisi.
+              </p>
+
+              <ul class="feature-list">
+                <li class="feature-item">
+                  <span class="material-symbols-outlined feature-icon"> check_circle </span>
+
+                  <span class="body-medium"> Cozy </span>
+                </li>
+                <li class="feature-item">
+                  <span class="material-symbols-outlined feature-icon"> check_circle </span>
+
+                  <span class="body-medium"> Smart Home </span>
+                </li>
+                <li class="feature-item">
+                  <span class="material-symbols-outlined feature-icon"> check_circle </span>
+
+                  <span class="body-medium"> Complete 24/7 Security </span>
+                </li>
+                <li class="feature-item">
+                  <span class="material-symbols-outlined feature-icon"> check_circle </span>
+
+                  <span class="body-medium"> Beautiful Scene Around </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="section feature feature-2" aria-labelledby="feature-label-2">
+          <div class="container">
+            <figure class="feature-banner">
+              <img src="/assets/thisImg/10.png" alt="" width="1020" height="690" loading="lazy" class="img-cover" />
+            </figure>
+
+            <div class="feature-content">
+              <h2 class="headline-medium" id="feature-label-2">We Are Reliable In Healthy And Flexible Living</h2>
+
+              <p class="body-large feature-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis sunt illo voluptatem! Ad quam itaque dolores voluptatem vitae deleniti sed! Porro, optio autem hic aliquam fugiat sed nihil asperiores nisi.
+              </p>
+
+              <ul class="feature-list">
+                <li class="feature-item">
+                  <span class="material-symbols-outlined feature-icon"> check_circle </span>
+
+                  <span class="body-medium"> Cozy </span>
+                </li>
+                <li class="feature-item">
+                  <span class="material-symbols-outlined feature-icon"> check_circle </span>
+
+                  <span class="body-medium"> Smart Home </span>
+                </li>
+                <li class="feature-item">
+                  <span class="material-symbols-outlined feature-icon"> check_circle </span>
+
+                  <span class="body-medium"> Complete 24/7 Security </span>
+                </li>
+                <li class="feature-item">
+                  <span class="material-symbols-outlined feature-icon"> check_circle </span>
+
+                  <span class="body-medium"> Beautiful Scene Around </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Feature section End -->
+
+        <!-- Video section Start -->
+
+        <section class="section video">
+          <div class="container">
+            <div class="video-card">
+              <button class="play-btn" aria-label="play video">
+                <span class="material-symbols-outlined"> play_arrow </span>
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <!-- Video section End -->
+
+        <!-- Story section Start -->
+
+        <section class="section story">
+          <div class="container">
+            <div class="title-wrapper">
+              <div>
+                <p class="section-subtitle title-medium">Our Customers</p>
+
+                <h2 class="section-title headline-medium">We Help 300+ Family Find Their Real Cozy Home</h2>
+
+                <ul class="avatar-list">
+                  <li class="avatar">
+                    <img src="/assets/thisImg/a1.png" width="120" height="80" loading="lazy" alt="Reyna Romencs" class="img-cover" />
+                  </li>
+                  <li class="avatar">
+                    <img src="/assets/thisImg/a2.png" width="120" height="80" loading="lazy" alt="Jacob Yuwe" class="img-cover" />
+                  </li>
+                  <li class="avatar">
+                    <img src="/assets/thisImg/a3.png" width="120" height="80" loading="lazy" alt="Van Ghoem" class="img-cover" />
+                  </li>
+                  <li class="avatar">
+                    <img src="/assets/thisImg/a4.png" width="120" height="80" loading="lazy" alt="Richards Yequ" class="img-cover" />
+                    <div class="overlay-content">
+                      <span class="label-medium"> 99+ </span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+
+              <a href="#" class="btn btn-outline">
+                <span class="label-medium"> View All Stories </span>
+                <span class="material-symbols-outlined"> arrow_outward </span>
+              </a>
+            </div>
+
+            <ul class="story-list">
+              <li class="story-card" style="background-image: url(/assets/thisImg/1.png)">
+                <a href="#" class="overlay-content">
+                  <div>
+                    <h3 class="title-small">Reyna Romencs</h3>
+
+                    <div class="rating-wrapper">
+                      <span class="material-symbols-outlined"> star </span>
+                      <span class="material-symbols-outlined"> star </span>
+                      <span class="material-symbols-outlined"> star </span>
+                      <span class="material-symbols-outlined"> star </span>
+                      <span class="material-symbols-outlined"> star </span>
+
+                      <data class="title-small rating-text" value="5"> 5.0 </data>
+                    </div>
+                  </div>
+
+                  <figure class="card-avatar">
+                    <img src="/assets/thisImg/a1.png" width="56" height="56" loading="lazy" alt="Reyna Romencs" class="img-cover" />
+                  </figure>
+                </a>
+              </li>
+
+              <li class="story-card" style="background-image: url(/assets/thisImg/7.png)">
+                <a href="#" class="overlay-content">
+                  <div>
+                    <h3 class="title-small">Jacob Yuwe</h3>
+
+                    <div class="rating-wrapper">
+                      <span class="material-symbols-outlined"> star </span>
+                      <span class="material-symbols-outlined"> star </span>
+                      <span class="material-symbols-outlined"> star </span>
+                      <span class="material-symbols-outlined"> star </span>
+                      <span class="material-symbols-outlined"> star </span>
+
+                      <data class="title-small rating-text" value="5"> 5.0 </data>
+                    </div>
+                  </div>
+
+                  <figure class="card-avatar">
+                    <img src="/assets/thisImg/a2.png" width="56" height="56" loading="lazy" alt="Jacob Yuwe" class="img-cover" />
+                  </figure>
+                </a>
+              </li>
+
+              <li class="story-card" style="background-image: url(/assets/thisImg/3.png)">
+                <a href="#" class="overlay-content">
+                  <div>
+                    <h3 class="title-small">Van Ghoem</h3>
+
+                    <div class="rating-wrapper">
+                      <span class="material-symbols-outlined"> star </span>
+                      <span class="material-symbols-outlined"> star </span>
+                      <span class="material-symbols-outlined"> star </span>
+                      <span class="material-symbols-outlined"> star </span>
+                      <span class="material-symbols-outlined"> star </span>
+
+                      <data class="title-small rating-text" value="5"> 5.0 </data>
+                    </div>
+                  </div>
+
+                  <figure class="card-avatar">
+                    <img src="/assets/thisImg/a3.png" width="56" height="56" loading="lazy" alt="Van Ghoem" class="img-cover" />
+                  </figure>
+                </a>
+              </li>
+
+              <li class="story-card" style="background-image: url(/assets/thisImg/4.png)">
+                <a href="#" class="overlay-content">
+                  <div>
+                    <h3 class="title-small">Richards Yequ</h3>
+
+                    <div class="rating-wrapper">
+                      <span class="material-symbols-outlined"> star </span>
+                      <span class="material-symbols-outlined"> star </span>
+                      <span class="material-symbols-outlined"> star </span>
+                      <span class="material-symbols-outlined"> star </span>
+                      <span class="material-symbols-outlined"> star </span>
+
+                      <data class="title-small rating-text" value="5"> 5.0 </data>
+                    </div>
+                  </div>
+
+                  <figure class="card-avatar">
+                    <img src="/assets/thisImg/a4.png" width="56" height="56" loading="lazy" alt="Richards Yequ" class="img-cover" />
+                  </figure>
+                </a>
+              </li>
+
+              <li class="story-card" style="background-image: url(/assets/thisImg/5.png)">
+                <a href="#" class="overlay-content">
+                  <div>
+                    <h3 class="title-small">Rina Rixcy</h3>
+
+                    <div class="rating-wrapper">
+                      <span class="material-symbols-outlined"> star </span>
+                      <span class="material-symbols-outlined"> star </span>
+                      <span class="material-symbols-outlined"> star </span>
+                      <span class="material-symbols-outlined"> star </span>
+                      <span class="material-symbols-outlined"> star </span>
+
+                      <data class="title-small rating-text" value="5"> 5.0 </data>
+                    </div>
+                  </div>
+
+                  <figure class="card-avatar">
+                    <img src="/assets/thisImg/a5.png" width="56" height="56" loading="lazy" alt="Rina Rixcy" class="img-cover" />
+                  </figure>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Story section End -->
+      </article>
+    </main>
+
+    <!-- ==================== MAIN END ==================== -->
+
+    <!-- ==================== FOOTER START ==================== -->
+
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="footer-brand">
+            <a href="#" class="logo">
+              <img src="/assets/landing-page/logo/CozyliveLogo.png" width="190" height="28" alt="Cozylive" />
+            </a>
+
+            <p class="body-medium footer-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, reprehenderit nostrum sunt ducimus repellendus placeat molestiae fugit nesciunt sint odit eos est accusamus beatae fuga? Minima beatae aspernatur ex minus?
+            </p>
+          </div>
+
+          <nav class="footer-nav" aria-labelledby="nav-label-1">
+            <p class="title-small footer-list-title" id="nav-label-1">Quick link</p>
+
+            <ul class="footer-list">
+              <li>
+                <a href="#" class="body-medium footer-link">Home</a>
+              </li>
+              <li>
+                <a href="#" class="body-medium footer-link">Buy</a>
+              </li>
+              <li>
+                <a href="#" class="body-medium footer-link">Sell</a>
+              </li>
+              <li>
+                <a href="#" class="body-medium footer-link">Rent</a>
+              </li>
+            </ul>
+          </nav>
+
+          <nav class="footer-nav" aria-labelledby="nav-label-2">
+            <p class="title-small footer-list-title" id="nav-label-2">Support</p>
+
+            <ul class="footer-list">
+              <li>
+                <a href="#" class="body-medium footer-link">About Us</a>
+              </li>
+              <li>
+                <a href="#" class="body-medium footer-link">Contact Us</a>
+              </li>
+              <li>
+                <a href="#" class="body-medium footer-link">Privacy Policy</a>
+              </li>
+              <li>
+                <a href="#" class="body-medium footer-link">Terms & Condition</a>
+              </li>
+            </ul>
+          </nav>
+
+          <nav class="footer-nav" aria-labelledby="nav-label-3">
+            <p class="title-small footer-list-title" id="nav-label-3">Get in touch</p>
+
+            <ul class="footer-list">
+              <li>
+                <a href="#" class="body-medium footer-link">Cozy@Cosylive.com</a>
+              </li>
+              <li>
+                <address class="address body-medium">2612 John Rd. Allentown, London 23647</address>
+              </li>
+              <li>
+                <ul class="social-list">
+                  <li>
+                    <a href="#" class="social-link">
+                      <i class="ri-instagram-line"></i>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="social-link">
+                      <i class="ri-twitter-x-line"></i>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="social-link">
+                      <i class="ri-whatsapp-line"></i>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <p class="copyright body-medium">Copyright 2023 Cozylive</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ==================== FOOTER END ==================== -->
+
+    <!-- JavaScript -->
+    <script src="/assets/js/landingPage.js"></script>
+  </body>
+</html>
