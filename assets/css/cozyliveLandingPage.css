@@ -657,6 +657,33 @@ body {
   gap: 16px;
 }
 
+/* ==================== VISION MISSION ==================== */
+
+.vision-mission .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.vision-mission-banner {
+  aspect-ratio: 3 / 2;
+  overflow: hidden;
+  border-radius: var(--radius-extra-large);
+}
+
+.vision-mission {
+  margin-top: 6rem;
+  display: flex;
+}
+
+.vision-mission-content {
+  padding: 24px 16px 0;
+}
+
+.vision-mission .vision-item .vision-detail {
+  align-items: center;
+}
+
 /* ==================== FEATURE ==================== */
 
 .feature-banner {
