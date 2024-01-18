@@ -1,0 +1,15 @@
+Pengembang Website :
+1. Iqyan Aziz Syamaidzar (2203040066) 
+2. Adi Novyanto (2203040020)
+3. Ardian Ferianto (2203040050)
+
+Penjelasan Website :
+1. Website ini merupakan website Real-Estate yang tujuannya untuk menjual,
+   menyewa, serta membeli properti seperti rumah, villa, dan lain-lain.
+2. Website ini juga terdapat halaman dashboard untuk melihat statistik 
+2. Website ini terdapat 2 bagian yaitu landing page dan dashboard serta 
+   4 halaman yaitu landing page, login page, sign up page, dan dashboard.
+3. Stack yang digunakan yaitu HTML, CSS, JS, Bootstrap, Scss.
+4. Penunjang tampilan yang digunakan yaitu google fonts, nucleo icons.
+5. Halaman dashboard merupakan halaman template yang dimodifikasi sesuai 
+   dengan kebutuhan.
